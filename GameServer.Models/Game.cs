@@ -6,6 +6,7 @@ namespace GameServer.Models
     {
         public bool IsFinished { get; set; }
         public string UserId { get; set; }
+        public string UserName { get; set; }
         public virtual User User { get; set; }
         public virtual ICollection<GameRound> Rounds { get; set; }
     }
